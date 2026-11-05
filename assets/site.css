@@ -87,8 +87,8 @@ header.site .wrap{min-height:68px}
 .band{padding:48px 0}
 .home h1{font-size:40px!important}
 .home h2{font-size:32px!important}
-.mbar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));position:sticky;bottom:0;background:#fff;border-top:1px solid #E8E2D6;box-shadow:0 -6px 20px rgba(31,36,51,.08);z-index:20}
-.mbar a{text-align:center;padding:14px 4px;font-size:14px;font-weight:600;text-decoration:none;color:#2E3F80}
+.mbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:sticky;bottom:0;background:#fff;border-top:1px solid #E8E2D6;box-shadow:0 -6px 20px rgba(31,36,51,.08);z-index:20}
+.mbar a{text-align:center;padding:12px 2px;font-size:13px;line-height:1.25;display:flex;align-items:center;justify-content:center;font-weight:600;text-decoration:none;color:#2E3F80}
 .mbar a.hot{color:#fff;background:#2E3F80}
 }
 @media (max-width:520px){.facts,.facts2{grid-template-columns:minmax(0,1fr)}.facts>div{border-right:0!important;border-bottom:1px solid #EFEAE0}}
